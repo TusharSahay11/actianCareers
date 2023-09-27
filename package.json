@@ -1,0 +1,25 @@
+{
+  "name": "actian-careers-api",
+  "version": "1.0.0",
+  "description": "Node.js RESTful API for Actian Careers",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "keywords": ["Node.js", "Express", "TypeScript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node-fetch": "^2.6.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
